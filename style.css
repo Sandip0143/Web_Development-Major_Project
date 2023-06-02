@@ -1,0 +1,251 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+body{
+background-image: url("https://images.pexels.com/photos/1054784/pexels-photo-1054784.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+background-size: cover;
+}
+.card{
+    width: 100%;
+    max-width: 1500px;
+    height: 1300px;
+    background: linear-gradient(135deg, #00feba, #5b548a);
+    color: #fff;
+    margin: 100px auto 0;
+    border-radius: 20px;
+    padding: 40px 35px;
+    text-align: center;
+}
+.search{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.search input{
+    border: 0;
+    outline: 0;
+    background:#ebfffc ;
+    color: #555;
+    padding: 10px 25px;
+    height: 60px;
+    border-radius: 30px;
+    flex: 1;
+    margin-right: 16px;
+    font-size: 18px;
+}
+.search button{
+    border: 0;
+    outline: 0;
+    background:#ebfffc ;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+}
+.search button img{
+    width: 16px;
+}
+.weather-icon{
+    width: 170px;
+    margin-top: 0px;
+}
+.weather h1{
+font-size: 80px;
+font-weight: 500;
+}
+.weather h2{
+    font-size: 45px;
+    font-weight: 400;
+    margin-top: -10px;
+}
+.details{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    margin-top: 50px;
+}
+.col{
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+.col img{
+    width: 40px;
+    margin-right: 10px;
+}
+.humidity, .wind{
+    font-size: 28px;
+    margin-top: -6px;
+}
+    
+/* .weather{
+    display: none;
+} */
+.error{
+    text-align: left;
+    margin-left: 10px;
+    font-size: 14px;
+    margin-top: 10px;
+    display: none;
+}
+
+#date-time{
+    text-align: left;
+    margin-left: 50px;
+    margin-top: 40px;
+    font-size: 35px;
+    font-family: cursive;
+    font-weight: bold;
+}
+
+.divider{
+    width: 100%;
+    height: 5px;
+    margin: 20px 0;
+    background-color: #f4eded;
+}
+
+/* #chart-container {
+    width: 80%;
+    margin: 20px auto;
+} */
+
+/* ------------------------------------------------------------------------------------------------------------------- */
+
+#cityInput{
+    border: 0;
+    outline: 0;
+    background:#ebfffc ;
+    color: #555;
+    padding: 10px 25px;
+    height: 60px;
+    border-radius: 30px;
+    flex: 1;
+    margin-right: 16px;
+    font-size: 18px;
+}
+
+#cityName{
+    margin: 3px;
+padding:5px;
+text-align:center;
+font-size:50px;
+font-weight:bold;
+font-family: cursive;
+}
+
+#inputContainer{
+    margin: 3px;
+    padding:5px;
+    text-align:center;
+    font-size:20px;
+    font-weight:bold;
+}
+
+#click{
+    border: 0;
+    outline: 0;
+    background:#ebfffc ;
+    color: #555;
+    padding: 10px 25px;
+    height: 60px;
+    border-radius: 30px;
+    flex: 1;
+    margin-right: 16px;
+    font-size: 18px;
+}
+
+#click img{
+    width: 16px;
+}
+
+#weatherContainer{
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    margin-right: -50%;
+    margin-top: 650px;
+    transform: translate(-50%, -50%);
+    height: 400px;
+    width: 1270px;
+    border: 5px solid rgba(97, 95, 95, 0.829);    
+    border-radius: 10px;
+}
+
+#iconsContainer{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    height: 340px;
+    width: 1200px;    
+    border: 5px solid rgb(31, 82, 82);    
+    border-radius: 10px;
+}
+
+.icons{
+    display: inline-bock;
+    float: left;
+    height: 300px;
+    width: 212px;
+    margin: 13px;
+    border: 5px solid rgb(48, 47, 47);
+    border-radius: 10px;
+}
+
+.image{
+    height: 140px;
+    width: 100%;
+}
+
+.imgClass{
+    height: 140px;
+    width: 100%;
+}
+
+.weather{
+    margin: 5px;
+    border-radius: 5px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.tempValues{
+    text-align: center;
+    display: inline-block;
+    border-radius: 5px;
+    height: 25px;
+    width: 200px;
+    margin: 0;
+    margin-bottom: 5px;
+    margin-left: 5px;
+}
+
+
+.humidityValues{
+    text-align: center;
+    display: inline-block;
+    border-radius: 5px;
+    height: 25px;
+    width: 200px;
+    margin: 0;
+    margin-bottom: 5px;
+    margin-left: 5px;
+}
+
+.windSpeed{
+    text-align: center;
+    display: inline-block;
+    border-radius: 5px;
+    height: 25px;
+    width: 200px;
+    margin: 0;
+    margin-bottom: 5px;
+    margin-left: 5px;
+}
